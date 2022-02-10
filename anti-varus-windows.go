@@ -63,11 +63,6 @@ func AVscan(sigs []string, searchData []byte, searchFile *os.File) {
 			fmt.Printf("Target hex: %s\n", v)
 			fmt.Printf("Target string: %s\n", decoded)
 			fmt.Printf("Target file: %s\n", searchFile.Name())
-			// out, err := exec.Command("sha256sum", searchFile.Name()).Output()
-			// if err != nil {
-			//      log.Fatal(err)
-			// }
-			// fmt.Printf("File SHA256 Hash is: %s", out)
 			out, err := exec.Command("cmd", "/C", "certutil -hashfile", searchFile.Name(), "SHA256").Output()
 			if err != nil {
 				log.Fatal(err)
