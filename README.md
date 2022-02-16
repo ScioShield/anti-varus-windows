@@ -27,14 +27,14 @@ Run the software against a test file (the .vdb only has sigs for the vdb file, t
 <code>
 PS C:\Users\USERNAME\Downloads\anti-varus-windows-master\anti-varus-windows-master> .\anti-varus-windows.exe
 Enter what file you would like to scan (full path and filename):
-C:\Users\USERNAME\Downloads\anti-varus-windows-master\anti-varus-windows-master\anti-varus-windows.exe
-Match found!
-Target hex: 78797a
-Target string: xyz
-Target file: C:\Users\USERNAME\Downloads\anti-varus-windows-master\anti-varus-windows-master\anti-varus-windows.exe
-File SHA256 Hash is: SHA256 hash of C:\Users\USERNAME\Downloads\anti-varus-windows-master\anti-varus-windows-master\anti-varus-windows.exe:
-4acd2b62d46a3a4e160a1287ec0eb8591d2ac99a956c0fa00cfc390ef5bba6b6
-CertUtil: -hashfile command completed successfully.
-</code>\
+C:\Users\USERNAME\Downloads\anti-varus-windows-master\anti-varus-windows-master\anti-varus-windows.exe\
+Match found!\
+Target hex: 78797a\
+Target string: xyz\
+Target file: C:\Users\USERNAME\Downloads\anti-varus-windows-master\anti-varus-windows-master\anti-varus-windows.exe\
+File SHA256 Hash is: SHA256 hash of C:\Users\USERNAME\Downloads\anti-varus-windows-master\anti-varus-windows-master\anti-varus-windows.exe:\
+4acd2b62d46a3a4e160a1287ec0eb8591d2ac99a956c0fa00cfc390ef5bba6b6\
+CertUtil: -hashfile command completed successfully.\
+</code>
 
 Do not run the code against large files! It does not have a chucking system like sha256sum to split files to manageable pieces.\
