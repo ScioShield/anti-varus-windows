@@ -11,7 +11,7 @@ The misspelling of anti-virus is deliberate, this is a project to further unders
 | [Kaspersky](https://www.kaspersky.co.uk/)     |                                    |
 | [Bitdefender](https://www.bitdefender.co.uk/) |                                    |
 
-Blog post: TBD
+Blog post: TBD 
 
 ## Compilation  
 
@@ -38,4 +38,4 @@ File SHA256 Hash is: SHA256 hash of C:\Users\USERNAME\Downloads\anti-varus-windo
 CertUtil: -hashfile command completed successfully.
 ```
 
-Do not run the code against large files! It does not have a chucking system like sha256sum to split files to manageable pieces.  
+Do not run anti-varus against large files! 
